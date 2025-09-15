@@ -1,4 +1,5 @@
 #include "all.h"
+#include <stdbit.h>
 
 typedef uint64_t Mask;
 

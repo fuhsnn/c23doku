@@ -12,6 +12,5 @@ Subgrid can be any rectangular as long as `(X*Y)<=61`, board size is implicitly 
 
 Compiler/libc requirements:
  - `<stdbit.h>`: `glibc` v2.39+
- - `constexpr`: `gcc-14`, `clang-19`, `slimcc`
- - `#embed`: `gcc-15`, `clang-19`, `slimcc`
- - `if` declaration and named loop: `gcc-15`, `slimcc`
+ - C23 features: `gcc-14(#embed needs 15)`, `clang-19`, `kefir 0.5`, `slimcc`
+ - C2Y `if` declaration and named loop: `gcc-15`, `slimcc`
